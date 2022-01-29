@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pruebas</title>
+</head>
+<body>
+	<script>
+		var x = 'Aprendiendo Javascript. Javascript es un lenguaje muy poderoso. Esto es una prueba.';
+
+/*
+		var i = x.lastIndexOf('Javascript');
+		console.log(x.slice(i));
+		console.log(x.replace(/Javascript/g, 'JS'));
+*/
+
+		function Point () {
+			var oraciones = x.split('. ');
+
+			for (var i = 0; i < oraciones.length - 1; i++) {
+				oraciones[i] = oraciones[i] + '.';
+			}
+			console.log(oraciones);
+		}
+		
+		Point();
+
+	</script>
+</body>
+</html>
