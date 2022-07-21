@@ -1,7 +1,6 @@
 body {
-	background: orange;
+	background-color: #f8c82b;
 	text-align: center;
-	line-height: 100vh;
 	margin: 0;
 }
 
@@ -9,4 +8,33 @@ button {
 	vertical-align: middle;
 	width: 100px;
 	height: 400px;
+}
+
+
+.title {
+	font-size: 50px;
+	font-weight: bolder;
+	font-family:  monospace;
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+@media screen and (max-width: 700px) {
+
+	body {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	button {
+		width: 60px;
+		height: 200px;
+	}
+
+	.title {
+		font-size: 30px;
+		font-weight: bolder;
+		font-family:  monospace;
+	}
+
 }
