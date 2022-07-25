@@ -4,8 +4,8 @@ El diseño es responsive.
 
 ### Tecnologías utilizadas:
 - Javascript
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ### Vista:
 ![image](https://user-images.githubusercontent.com/96211574/180675641-9f7e4650-db50-4161-ac48-1ec3616712fd.png)
